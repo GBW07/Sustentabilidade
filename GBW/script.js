@@ -43,13 +43,39 @@ const perguntas = [
         enunciado: "Agora, 5 anos depois, você está feliz com sua familia, afinal comprou uma área do mesma magnitude da sua, e pagou muito abaixo ainda, pelo fato de ter muitas árvores e pouco espaço para plantio. Mas você tem possibilidade de ampliar cerca de 35% da área de plantio, uma baita oportunidade. Agora fica a pergunta o que você faria hein?",
         alternativas: [
             {
-                texto: "Já fiz duas vezes,tô experiente nisso, bora mais uma",
-                afirmacao: "E todos morrem" 
+                texto: "Já fiz duas vezes,tô experiente nisso, bora mais uma.",
+                afirmacao: "E todos morrem.☠️☠️☠️☠️"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
-            }
+                texto: "Cara, ampliei nas outras duas oportunidades, desta vez vou deixar essa área de mata como ela está.",
+                afirmacao: "Você colocou a mão na consiência e resolveu ser alguém melhor. Continue com esse pensamento, chega de destruir!!!"
+            },
+            {
+                texto: "Não quis ampliar a primeira área, e me arrependi, agora vendo o resultado que a ampliação do segundo pedaço de terra me trouxe, vou ampliar mais esta área.",
+                afirmacao: "Que retrocesso em, eu acreditava que você pudesse ser diferente, mas você é iguala todos, isso só nos levará ao fim do mundo!!!"
+            },
+            {
+                texto: "Não quis ampliar a primeira área, mas ampliei a segunda, pra mim só uma área ampliada está bom, não quero ser o motivo de destruição do nopsso planeta.",
+                afirmacao: "Ainda bem que você conseguiu se redimir e pensar no futuro, nas próximas gerações, não somente em você, se tem meus parabéns."
+            },
+            {
+                texto: "Ampliei a primeira área, mas me arependi de não ter ampliando a segunda, poderia ter uma maior produção, então dessa vez não serei tolo, e desmatarei esse novo terreno.",
+                afirmacao: "Você tinha tudo pra se tornar uma pessoa melhor, porém a ganância te consumiu né, e você vai consumir o nosso planeta, até ele virar pó!!!"
+            },
+            {
+                texto: "Já ampliei a primeira área, é mais do que o suficiente pra mim, vou deixar as dois terrenos como deveriam ser, com matas.",
+                afirmacao: "Realmente, sua escolha foi mais do que correta. Você me pareceu em um primeiro momento me pareceu ganâncioso, porém percebi que você tem um bom coração, e que pensa no futuro, parabéns🎆🎆🎆!!!"
+            },
+            {
+                texto: "Não ampliei nem uma área até agora, porém esse terreno é maior, pode me render mais, o que é apenas uma ampliada né.",
+                afirmacao: "Eu acreditave que você seria melhor, mas não, você é como todos os outros, cedendo a tentação de ser mais rico, só cuida para não levar nosso planeta a ruína!"
+            },
+            {
+                texto: "A não ampliei nada, não vai ser agora que vou começar, deixa o planeta como está.",
+                afirmacao: "O que dizer de uma pessoa como você, você é simplesmente uma pessoa sensacional meus mais sinceros parabéns em, siga sendo esse tipo de pessoa."
+                
+            },
+
         ]
     },
 ]
@@ -85,7 +111,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Em 2024...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
